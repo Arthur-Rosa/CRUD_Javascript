@@ -1,0 +1,11 @@
+{
+  "foods": [
+    {
+      "name": "teste",
+      "description": "teste2dsadas",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZk4UPpIsuM1lvkV36tCE20R199V3iRx9FFQ&s",
+      "id": "9527"
+    }
+  ],
+  "cars": []
+}

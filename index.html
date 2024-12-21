@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD de Comidas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CRUD de Comidas</h1>
+
+      <!-- Formulário para Adicionar/Editar Comida -->
+      <form id="foodForm">
+        <input 
+          type="text" 
+          id="foodName" 
+          placeholder="Nome da Comida" 
+          required 
+        />
+        <textarea 
+          id="foodDescription" 
+          placeholder="Descrição (ex: ingredientes, preparo...)" 
+          required
+        ></textarea>
+        <input 
+          type="url" 
+          id="foodImageURL" 
+          placeholder="URL da Imagem" 
+          required 
+        />
+        <button type="submit" id="submitBtn">Adicionar</button>
+      </form>
+
+      <!-- Lista de comidas -->
+      <div id="foodList"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
